@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background: #000000;
+}
+.headline{
+  color: white;
+}
+.brødtekst{
+  font-size: 15px;
+  color: white;
+  margin-left: 100px;
+}
+.grid-container{
+  display: grid;
+}
+.mainimg{
+  width: 450px;
+  height: 450px;
+}
+h1{
+  font-size: 55px;
+  color: #BADBDA;
+}
+h2{
+  font-size: 40px;
+  color: #F2CCD7;
+}
+h3{
+  font-size: 30px;
+  color: #FCF7B5;
+}
+h4{
+  font-size: 16px;
+  text-align: center;
+  color: white;
+}
+h5{
+  font-size: 16px;
+  color: white;
+}
+nav{
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background: #2A546B;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+}
+nav .logo{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li{
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover{
+  color: #111;
+  background: #fff;
+}
+nav .menu-btn i{
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+input[type="checkbox"]{
+  display: none;
+}
+.holdingcontainer1{
+  width: 100%;
+  display: flex;
+  background-color: none;
+  padding: 50px;
+  box-sizing: border-box;
+  flex-direction: row;
+}
+.holdingcontainer2{
+  width: 100%;
+  display: flex;
+  background-color: none;
+  padding: 50px;
+  box-sizing: border-box;
+  flex-direction: row;
+}
+.holdingcontainer3{
+  width: 100%;
+  display: flex;
+  background-color: none;
+  padding: 50px;
+  box-sizing: border-box;
+  flex-direction: row;
+  text-align: center;
+}
+.internalcontainer1{
+  flex: 1;
+  padding: 30px;
+  font-size: 12px;
+  margin: 30px;
+  background-color: black;
+  color: white;
+}
+.internalcontainer2{
+  flex: 1;
+  padding: 30px;
+  font-size: 12px;
+  margin: 30px;
+  background-color: black;
+    color: white;
+}
+.internalcontainer3{
+  flex: 1;
+  padding: 30px;
+  font-size: 12px;
+  margin: 30px;
+  background-color: black;
+    color: white;
+}
+.holdingcontainer2{
+  width: 100%;
+  display: flex;
+  background-color: none;
+  padding: 50px;
+  box-sizing: border-box;
+  flex-direction: row;
+    color: white;
+}
+.internalcontainer4{
+  flex: 1;
+  padding: 30px;
+  font-size: 12px;
+  margin: 30px;
+  background-color: black;
+  color: white;
+}
+.internalcontainer5{
+  flex: 1;
+  padding: 30px;
+  font-size: 12px;
+  margin: 30px;
+  background-color: black;
+  color: white;
+}
+.internalcontainer6{
+  flex: 1;
+  padding: 30px;
+  font-size: 12px;
+  margin: 30px;
+  background-color: black;
+  color: white;
+}
+.internalcontainer7{
+  flex: 1;
+  padding: 30px;
+  background-color: black;
+  color: white;
+}
+  .internalcontainer8{
+    flex: 1;
+    background-color: black;
+  }
+.contact-section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info{
+  color: white;
+  max-width: 500px;
+  line-height: 65px;
+  padding-left: 50px;
+  font-size: 18px;
+}
+.contact-info i{
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+.contact-form{
+  max-width: 700px;
+  margin-right: 50px;
+}
+
+.contact-info, .contact-form{
+  flex: 1;
+}
+
+.contact-form .text-box{
+  background: white;
+  color: black;
+  border: none;
+  width: calc(50% - 10px);
+  height: 50px;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.contact-form .text-box:first-child{
+  margin-right: 15px;
+}
+
+.contact-form textarea{
+  background: white;
+  color: black;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  min-height: 200px;
+  max-height: 400px;
+  resize: vertical;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.contact-form .send-btn{
+  float: right;
+  background: #2A546B;
+  color: white;
+  border: none;
+  width: 120px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  transition-property: background;
+}
+
+.contact-form .send-btn:hover{
+  background: #3e6479;
+}
+.alert-success{
+  z-index: 1;
+  background: #D4EDDA;
+  font-size: 18px;
+  padding: 20px 40px;
+  min-width: 420px;
+  position: fixed;
+  right: 0;
+  top: 10px;
+  border-left: 8px solid #3AD66E;
+  border-radius: 4px;
+}
+
+.alert-error{
+  z-index: 1;
+  background: #FFF3CD;
+  font-size: 18px;
+  padding: 20px 40px;
+  min-width: 420px;
+  position: fixed;
+  right: 0;
+  top: 10px;
+  border-left: 8px solid #FFA502;
+  border-radius: 4px;
+}
+
+@media (max-width: 1000px){
+  nav{
+    padding: 0 40px 0 50px;
+  }
+}
+@media (max-width: 920px) {
+  nav .menu-btn i{
+    display: block;
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+  }
+  nav ul{
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: #111;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  #click:checked ~ ul{
+    left: 0;
+  }
+  nav ul li{
+    width: 100%;
+    margin: 40px 0;
+  }
+  nav ul li a{
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~ ul li a{
+    margin-left: 0px;
+  }
+  nav ul li a.active,
+  nav ul li a:hover{
+    color: #254B60;
+    background: none;
+  }
+
+  .contact-section{
+    flex-direction: column;
+  }
+
+  .contact-info, .contact-form{
+    margin: 30px 50px;
+  }
+
+  .contact-form .text-box{
+    width: 100%;
+  }
+  .holdingcontainer1{
+    flex-direction: column-reverse;
+  }
+  .holdingcontainer2{
+    flex-direction: column-reverse;
+  }
+  .holdingcontainer3{
+    flex-direction: column-reverse;
+  }
+  .contact-section{
+    flex-direction: column;
+  }
+
+  .contact-info, .contact-form{
+    margin: 30px 50px;
+  }
+
+  .contact-form h2{
+    font-size: 30px;
+  }
+
+  .contact-form .text-box{
+    width: 100%;
+  }
+  .mainimg{
+    width: 225px;
+    height: 225px;
+  }
+  h1{
+    font-size: 40px;
+    color: #BADBDA;
+  }
+  h2{
+    font-size: 25px;
+    color: #F2CCD7;
+  }
+  h3{
+    font-size: 15px;
+    color: #FCF7B5;
+  }
+.internalcontainer7{
+  font-size: 12px;
+}
+}
